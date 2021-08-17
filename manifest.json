@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Hide Mouse on Hulu",
+    "version": "1.0.0",
+    "description": "Hide the mouse while viewing a Hulu video",
+    "content_scripts": [
+        {
+            "matches": ["https://www.hulu.com/*"],
+            "js": ["script.js"]
+        }
+    ],
+    "icons": {
+        "96": "images/icon96.png"
+    }
+}
